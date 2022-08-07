@@ -1,6 +1,5 @@
-package com.example.owe_you_i_do.repository
+package com.example.owe_you_i_do.transaction
 
-import com.example.owe_you_i_do.db.Transaction
 import com.example.owe_you_i_do.db.TransactionDAO
 
 class TransactionRepository(private val transactionDAO: TransactionDAO) {

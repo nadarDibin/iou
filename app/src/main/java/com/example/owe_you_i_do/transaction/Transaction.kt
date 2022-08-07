@@ -1,4 +1,4 @@
-package com.example.owe_you_i_do.db
+package com.example.owe_you_i_do.transaction
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
