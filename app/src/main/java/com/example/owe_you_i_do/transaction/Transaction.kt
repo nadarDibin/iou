@@ -3,7 +3,7 @@ package com.example.owe_you_i_do.transaction
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import java.util.Date
+import java.time.OffsetDateTime
 
 @Entity(tableName = "transaction_data_table")
 data class Transaction(
@@ -18,12 +18,9 @@ data class Transaction(
     @ColumnInfo(name = "transaction_description")
     val description: String,
 
-    @ColumnInfo(name = "transaction_date")
-    val date: Date,
-
     @ColumnInfo(name = "transaction_total_amount")
-    val totalAmount: Date,
+    val totalAmount: Int,
 
     @ColumnInfo(name = "transaction_owed_amount")
-    val owedAmount: Date,
+    val owedAmount: Int
 )
