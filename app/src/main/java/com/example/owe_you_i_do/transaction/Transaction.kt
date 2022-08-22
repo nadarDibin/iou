@@ -3,7 +3,6 @@ package com.example.owe_you_i_do.transaction
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import java.time.OffsetDateTime
 
 @Entity(tableName = "transaction_data_table")
 data class Transaction(
